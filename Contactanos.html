@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/estilo.css">
+    
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="contenedor1">
+      <ul class="nav ml-auto">
+        <li class="nav-item mr-auto">
+          <img src="src/imagenes/Captura_de_pantalla_2023-12-12_103931-removebg-preview.png" alt="" class="logo">
+        </li>
+        <div class="a21">
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="inicio.html">
+            <p style="color: rgb(255, 255, 255)">Inicio</p>
+          </a>
+        </li>
+      </div>
+        <div class="a21">
+          <li class="nav-item">
+          <a class="nav-link" href="acerca.html">
+            <p style="color: rgb(255, 255, 255)">Biografías</p>
+          </a>
+        </li>
+      </div>
+        <div class="a21">
+          <li class="nav-item">
+          <a class="nav-link" href="admisiones.html">
+            <p style="color: rgb(255, 255, 255)">Galeria de Imagenes</p>
+          </a>
+        </li>
+      </div>
+        <div class="a21">
+          <li class="nav-item">
+          <a class="nav-link" href="programas.html">
+            <p style="color: rgb(255, 255, 255)">Videos</p>
+          </a>
+        </li>
+      </div>  
+      <div class="a21">
+        <li class="nav-item">
+        <a class="nav-link" href="Contactanos.html">
+          <p style="color: rgb(255, 255, 255)">Recomendaciones</p>
+        </a>
+      </li>
+    </div>    
+      </ul>
+    </div>
+    <section class="contact-section">
+        <div class="contact-content">
+          <h2>¿Tienes alguna recomendacion?</h2>
+          <p>Si tienes algun comentario o quieras compartir algo con nosotros no dudes en enviar un mensaje.</p>
+    
+          <form action="#" method="post" class="contact-form">
+    
+            <label for="nombre">Nombre:</label>
+            <input type="nombre" id="nombre" name="nombre" required>
+    
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="button" onclick="enviarCorreo()">Enviar Mensaje</button>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-content">
+            <table>
+                <tr>
+                    <td>
+                        <p>&copy; 2024 BombonBlogs</p>
+                        <p>Nombre: Stefanny Mayerly Dalay Mendoza Revollo</p>
+                        <p>Carnet de Identidad: 11074454</p>
+                        <p>La Paz - Bolivia</p>
+                      </td>
+              
+                </tr>
+            </table>
+        </div>
+    </footer>
+    <script src="src/index.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+  </body>
+</html>

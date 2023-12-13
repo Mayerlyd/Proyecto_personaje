@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .titulo{
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align:center;
+    color: #333;
+    font-family:sans-serif;
+  }
+  .academic-programs-section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align:justify;
+  }
+  
+  .academic-programs-content {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  h3 {
+    color: #0066cc;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.5;
+  }
+  #contenedor1 {
+    padding: 10px;
+    background-color: #001F3F;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinea los elementos a los extremos */
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  .escudo {
+    padding-left: 30px;
+    max-width: 100px;
+  }
+  .a21{
+    padding-top: 10px;
+    transition: 0.4s;
+    font-size: 25px;
+    transform: translateX(0);
+    cursor: grab;
+  }
+  .a21:hover{
+    transform: translateY(-1rem);
+    background: #0074E4;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto en el footer */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ico{
+    height: 70px;
+}
+footer p {
+  color: #fff;
+}
